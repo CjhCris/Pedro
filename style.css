@@ -1,0 +1,61 @@
+@font-face{
+    font-family: 'PizzaFont';
+    src: url(fuentes/y-pizza-cartoon-text-effect-14926958.ttf) format('True Type');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body{
+    background: #161616
+    margin 0;
+    display: grid;
+    
+}
+
+.spinner{
+    background: rgba(0,0,0,0);
+
+    border-radius: 0%;
+    overflow: hidden;
+    width: 50px;
+    aspect-ratio:1;
+    animation: rotate 6s linear infinite;
+    img{
+        display: block;
+        width: 60px;
+        animation: bounce .2s linear infinite alternate;
+    }
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes bounce{
+    from{
+        transform: translateY(-5%);
+    }
+    to{
+        transform: translateY(10%);
+    }
+}
+
+.logo{
+    width: 120px;
+}
+
+.iconos{
+    width: 50px;
+}
+
+.nav-link{
+    font-family: 'PizzaFont', sans-serif;
+}
