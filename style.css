@@ -53,10 +53,41 @@ body{
 
 .iconos{
     width: 50px;
+    
 }
 
 .nav-link{
     margin-top: 15px;
     font-family: 'NavbarFont';
     font-size: large;
+    
 }
+
+
+.buscador{
+    padding-left: 30px;
+}
+input{
+    outline: none;
+    box-sizing: border-box;
+    height: 60px;
+    width: 0;
+    padding: 0 20px;
+    color: #000;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 1px solid gray;
+    transition: all .7s ease;
+}
+
+
+::placeholder{
+    color: gray;
+}
+
+
+.buscador input{
+    width: 350px;
+
+}
+
