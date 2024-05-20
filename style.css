@@ -1,8 +1,7 @@
 @font-face{
-    font-family: 'PizzaFont';
-    src: url(fuentes/y-pizza-cartoon-text-effect-14926958.ttf) format('True Type');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'NavbarFont';
+    src: url(fuentes/copperplate.otf) ;
+   ;
 }
 
 
@@ -57,5 +56,7 @@ body{
 }
 
 .nav-link{
-    font-family: 'PizzaFont', sans-serif;
+    margin-top: 15px;
+    font-family: 'NavbarFont';
+    font-size: large;
 }
