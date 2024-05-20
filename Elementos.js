@@ -3,5 +3,4 @@ const modalusuario = document.getElementById("modal-usuario");
 
 btnusuario.addEventListener('click', ()=>{
     modalusuario.classList.add('show');
-    alert('prueba');
 })
