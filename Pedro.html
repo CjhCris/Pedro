@@ -51,17 +51,46 @@
             <form class="d-flex">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <img class="iconos" src="img/usuario queso.png" alt="">
+                      <button id="btn-usuario">
+                        <img class="iconos" src="img/usuario queso.png" alt="">
+                      </button>
                     </li>
                     <li class="nav-item">
-                        <img class="iconos" src="img/carrito queso.png" alt="">
+                        <button id="btn-carrito">
+                          <img class="iconos" src="img/carrito queso.png" alt="">
+                        </button>
                       </li>
             </form>
           </div>
         </div>
       </nav>
 
+      
+      
+      
+      <div class="center" id="modal-usuario">
+        
+        <h1>Login</h1>
+        <form method="post">
+            <div class="txt_field">
+                <input type="text" required>
+                <label>Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="pass">Forgot password?</div>
+            <input type="submit" value="Login">
+            <div class="signup_link">
+                Not a member? <a href="#">Singup</a>
+            </div>
 
+            
+        </form>
+    </div>
+
+    <script src="Elementos.js"></script>
 
 
 
