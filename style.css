@@ -12,8 +12,7 @@
 body{
     background: #161616
     margin 0;
-    display: grid;
-    
+    display: grid;   
 }
 
 
@@ -102,6 +101,8 @@ input{
 
 
 /* Modal Inicio de sesión*/
+
+
 
 .center{
     opacity: 0;
@@ -224,6 +225,22 @@ input[type="submit"]:hover{
 
 .signup_link a:hover{
     text-decoration: underline;
+}
+
+.cerrar{
+    width: 25px;    
+}
+#btn-cerrar-usuario {
+    position: absolute;
+    top: 3px; /* Distancia desde la parte superior */
+    right: 3px; /* Distancia desde el lado derecho */
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+button{
+    border: none;
+    background: rgba(0, 0, 0, 0);
 }
 
 
