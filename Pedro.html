@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-   
+    
+    <script></script>
     <title>Pedro's Pizza</title>
   </head>
   <body>
@@ -72,20 +73,20 @@
         <button id="btn-cerrar-usuario">
           <img class="cerrar" src="img/cerrar.png" alt="">
         </button>
-        <h1>Login</h1>
+        <h1>Inicio de sesión</h1>
         <form method="post">
             <div class="txt_field">
-                <input type="text" required>
-                <label>Username</label>
+                <input type="text" id="usuario" name="usuario">
+                <label>Usuario</label>
             </div>
             <div class="txt_field">
-                <input type="password" required>
-                <label>Password</label>
+                <input type="password" id="contraseña" name="contraseña">
+                <label>Contraseña</label>
             </div>
-            <div class="pass">Forgot password?</div>
-            <input type="submit" value="Login">
+            <div class="pass">Olvidó su contraseña?</div>
+            <input type="submit" value="Entrar">
             <div class="signup_link">
-                Not a member? <a href="#">Singup</a>
+                Aún no se registra? <a href="#">Registrese</a>
             </div>
 
             
@@ -96,8 +97,8 @@
 
       
 
-   
-    <script src="Elementos.js"></script>
+      <script src="validaciones.js"></script>
+      <script src="Elementos.js"></script>
 
 
 
