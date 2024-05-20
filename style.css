@@ -6,13 +6,18 @@
 }
 
 
-
-
 body{
     background: #161616
     margin 0;
     display: grid;
-    
+    text-align:center;
+    margin:auto;
+}
+
+.col img{
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 1px solid;
 }
 
 .spinner{
@@ -21,13 +26,19 @@ body{
     border-radius: 0%;
     overflow: hidden;
     width: 50px;
-    aspect-ratio:1;
+    aspect-ratio: 0;
     animation: rotate 6s linear infinite;
     img{
         display: block;
         width: 60px;
         animation: bounce .2s linear infinite alternate;
     }
+}
+
+.spinner img {
+    box-shadow: 0 0 0 10px #000; 
+    border-radius: 50%; 
+    padding: 5px; 
 }
 
 @keyframes rotate{
@@ -48,7 +59,7 @@ body{
     }
 }
 
-.logo{
+.logo {
     width: 120px;
 }
 
@@ -57,5 +68,116 @@ body{
 }
 
 .nav-link{
-    font-family: 'PizzaFont', sans-serif;
+    font-family: 'PizzaFont';
+    src: url(fuentes/y-pizza-cartoon-text-effect-14926958.ttf) format('True Type');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.card {
+    border: none; 
+}
+
+.card-deck {
+    margin-top: 10px; 
+}
+
+.carousel-item img {
+    position: auto;
+    max-width: 100%; 
+    height: auto; 
+    border: 3px solid #ccc; 
+    border-radius: 10px; 
+    height: 400px; 
+    width: 800px;
+  }
+
+#carouselExampleSlidesOnly {
+    margin: 0 25%; 
+    width: 80%; 
+    text-align: center; 
+}
+
+.carousel-inner {
+    display: inline-block; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,209,3,255)
+}
+
+.navbar-nav .nav-link {
+    margin-top: 15px; 
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; 
+    height: 50%; 
+    top: calc(50% - 0%); 
+    transform: translateY(-50%); 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 30%; 
+    height: 30; 
+}
+
+.carousel-control-next {
+    right: 25.8%; 
+}
+
+.h2-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-left: -15px; 
+    margin-right: -15px; 
+  }
+
+.h2-item {
+    flex: 25 1 33.3333%; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.txth2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px; 
+    font-family: 'PizzaFont';
+    src: url(fuentes/y-pizza-cartoon-text-effect-14926958.ttf) format('True Type');
+}
+.btn-primary {
+    font-family: 'PizzaFont';
+    src: url(fuentes/y-pizza-cartoon-text-effect-14926958.ttf) format('True Type');
+    background-color: #ffc107;
+    color: #ffffff;
+    border-color: #ffa507;
+    margin: 10px auto; 
+    display: block; 
+    width: fit-content; 
+}
+
+.btn-primary:hover {
+    background-color: #161616;
+    border-color: #161616;
+    color: rgba(255,209,3,255)
+}
+
+.btn-group {
+    margin-right: 10px;
+}
+
+.btn-cart:hover {
+    background-color: white;
+    border-color: white;
+    color: rgba(255,209,3,255)
 }
