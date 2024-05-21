@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"> <!-- Tu archivo CSS personalizado -->
     <link rel="Icon" href="img/Pedro.png">
+    <script src="Carrito.js"></script>
    
     <title>Pedro's Pizza</title>
 </head>
@@ -38,7 +39,7 @@
                 <a class="nav-link" href="Extras.html">Extras</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Promociones</a>
+                <a class="nav-link" href="Promociones.html">Promociones</a>
               </li>
               <li class="buscador">
                 <input type="text" placeholder="Buscar">
@@ -97,92 +98,83 @@
         </div>
       </nav>
 
-      <div class="container card-container">
-        <div class="row">
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="bebidas/Coca2.5.png" class="Pedropizza" alt="" style="height: 200px; width: 100%;">
-                        <a href="#" class="btn btn-primary">Coca Cola: $3.000</a>
-                    </div>
-                </div>
+      <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Coca Cola 2.5lt</span>
+                <img src="bebidas/Coca2.5.png" alt="" class="img-item">
+                <span class="precio-item">$3.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
             </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="bebidas/coca_sin_azucar.png" alt="Pedropizza" class="img-fluid" style="height: 200px; width: 100%;">
-                        <a href="productos.html" class="btn btn-primary">Coca Cola Zero: $3.000</a> 
-                    </div>
-                </div>
+            <div class="item">
+                <span class="titulo-item">Coca Cola Zero 3lt</span>
+                <img src="bebidas/coca_sin_azucar.png" alt="" class="img-item">
+                <span class="precio-item">$3.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
             </div>
-            <div class="col">
-                <div class="card">
-                    <div class="card-body"> 
-                        <img src="bebidas/Sprite.png" alt="Pedropizza" class="pedro-" style="height: 200px; width: 100%;">
-                        <a href="productos.html" class="btn btn-primary">Sprite: $3.000</a>  
-                    </div>
-                </div>
+            <div class="item">
+                <span class="titulo-item">Sprite 3lt</span>
+                <img src="bebidas/spprite_3lt.png" alt="" class="img-item">
+                <span class="precio-item">$3.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Sprite Zero 3lt</span>
+                <img src="bebidas/spprite_3lt.png" alt="" class="img-item">
+                <span class="precio-item">$3.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Fanta</span>
+                <img src="bebidas/Fanta.png" alt="" class="img-item">
+                <span class="precio-item">$3.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Monster</span>
+                <img src="bebidas/monster_ori.webp" alt="" class="img-item">
+                <span class="precio-item">$2.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Monster Zero</span>
+                <img src="bebidas/Blanco.jpeg" alt="" class="img-item">
+                <span class="precio-item">$2.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Jugo Watts Naranja</span>
+                <img src="bebidas/Naranja.jpeg" alt="" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Jugo Watts Frutilla</span>
+                <img src="bebidas/watts_fruti.jpeg" alt="" class="img-item">
+                <span class="precio-item">$1.500</span>
+                <button class="boton-item">Agregar al Carrito</button>
             </div>
         </div>
-    </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
 
-    <div class="container card-container">
-      <div class="row">
-          <div class="col">
-              <div class="card">
-                  <div class="card-body">
-                      <img src="bebidas/spprite_3lt.png" class="Pedropizza" alt="" style="height: 200px; width: 100%;">
-                      <a href="Pizzas.html" class="btn btn-primary">Sprite Zero: $3.000</a> 
-                  </div>
-              </div>
-          </div>
-          <div class="col">
-              <div class="card">
-                  <div class="card-body">
-                      <img src="bebidas/Fanta.png" alt="Pedropizza" class="img-fluid" style="height: 200px; width: 100%;">
-                      <a href="productos.html" class="btn btn-primary">Fanta: $3.000</a> 
-                  </div>
-              </div>
-          </div>
-          <div class="col">
-              <div class="card">
-                  <div class="card-body"> 
-                      <img src="bebidas/monster_ori.webp" alt="Pedropizza" class="pedro-" style="height: 200px; width: 100%;">
-                      <a href="productos.html" class="btn btn-primary">Monster: $2.500</a>  
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  
-  <div class="container card-container">
-    <div class="row">
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <img src="bebidas/Blanco.jpeg" class="Pedropizza" alt="" style="height: 200px; width: 100%;">
-                    <a href="Pizzas.html" class="btn btn-primary">Monster 0 Sugar: $2.500</a> 
+            <div class="carrito-items">
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
                 </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
             </div>
         </div>
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <img src="bebidas/Naranja.jpeg" alt="Pedropizza" class="img-fluid" style="height: 200px; width: 100%;">
-                    <a href="productos.html" class="btn btn-primary">Jugo Naranja : $2.000</a> 
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <div class="card-body"> 
-                    <img src="bebidas/watts_fruti.jpeg" alt="Pedropizza" class="pedro-" style="height: 200px; width: 100%;">
-                    <a href="productos.html" class="btn btn-primary">Jugo Tutifrutilla: $2.000</a>  
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+      </section>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
