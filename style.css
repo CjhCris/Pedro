@@ -369,7 +369,6 @@ input[type="submit"]:hover{
     transition: .3s;
 }
 .contenedor .contenedor-items .item{
-    max-width: 200px;
     margin: auto;
     border: 1px solid #666;
     border-radius: 10px;
@@ -384,6 +383,13 @@ input[type="submit"]:hover{
     box-shadow: 0 0 10px #666;
     scale: 1.05;
 }
+
+.contenedor .contenedor-items .item .boton-item:hover {
+    background-color: #ffa507;
+    transition: .5s;
+    border: 0.5px solid black;
+}
+
 .contenedor .contenedor-items .item .titulo-item{
     display: block;
     font-weight: bold;
@@ -438,6 +444,8 @@ input[type="submit"]:hover{
 }
 .carrito .carrito-item img{
     margin-right: 20px;
+    width: 100px;
+    height: 75px;
 }
 .carrito .carrito-item .carrito-item-titulo{
     display: block;
@@ -523,8 +531,14 @@ input[type="submit"]:hover{
     transition: .3s;
 }
 .carrito-total .btn-pagar:hover{
+    background-color: #ffa507;
     scale: 1.05;
+    border: 1px solid black;
 }
+
+
+
+
 
 /* SECCION RESPONSIVE */
 @media screen and (max-width: 850px) {
@@ -537,4 +551,8 @@ input[type="submit"]:hover{
     .carrito{
         width: 100%;
     }
-  }
+}
+
+::after, ::before {
+    box-sizing: border-box;
+}
