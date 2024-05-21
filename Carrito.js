@@ -67,7 +67,20 @@ function agregarAlCarritoClicked(event){
 }
 
 //Funcion que hace visible el carrito
+
+function BotonCarrito(){
+    carritoVisible = true;
+    var carrito = document.getElementsByClassName('carrito')[0];
+    carrito.style.marginRight = '0';
+    carrito.style.opacity = '1';
+
+    var items =document.getElementsByClassName('contenedor-items')[0];
+    items.style.width = '60%';
+
+}
+
 function hacerVisibleCarrito(){
+    
     carritoVisible = true;
     var carrito = document.getElementsByClassName('carrito')[0];
     carrito.style.marginRight = '0';
