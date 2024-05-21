@@ -559,3 +559,12 @@ input[type="submit"]:hover{
         width: 100%;
     }
 }
+
+
+
+.modal-form{
+    width: 500px;
+    padding-left: 5%;
+}
+
+
