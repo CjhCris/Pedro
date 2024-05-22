@@ -386,14 +386,18 @@ input[type="submit"]:hover{
 }
 
 .contenedor .contenedor-items .item:hover {
-    box-shadow: 0 0 10px #666;
-    transform: scale(1.05);
+    /* Estilos cuando el mouse está sobre la tarjeta */
+    background-color: #ffa500; /* Cambia el color de fondo */
+    border-color: #ffa500; /* Cambia el color del borde si lo tienes */
+    color: #fff; /* Cambia el color del texto si es necesario */
+    box-shadow: 0 0 10px #ffa500; /* Agrega una sombra alrededor de la tarjeta */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la tarjeta */
 }
 
 .contenedor .contenedor-items .item .boton-item:hover {
-    background-color: #ffa507;
-    transition: .5s;
-    border: 0.5px solid black;
+    /* Estilos para el botón dentro de la tarjeta cuando el mouse está sobre él */
+    background-color: #ffa500; /* Cambia el color de fondo */
+    border: 0.5px solid black; /* Cambia el estilo del borde */
 }
 
 .contenedor .contenedor-items .item .titulo-item {
