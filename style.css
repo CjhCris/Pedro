@@ -347,6 +347,8 @@ input[type="submit"]:hover{
 .modal-body h2{
     text-align: center;
 }
+
+
 /*Nuevo Camilo*/
 .contenedor {
     max-width: 1200px;
@@ -370,17 +372,17 @@ input[type="submit"]:hover{
 
 .contenedor .contenedor-items .item {
     max-width: 100%;
-    margin: auto;
+    margin: center;
     border: 1px solid #666;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
     transition: .3s;
 }
 
 .contenedor .contenedor-items .item .img-item {
     width: 100%;
-    height: auto; /* Asegura que la imagen mantenga su proporción */
-    display: block; /* Asegura que la imagen se muestre como un bloque */
+    height: 50%; 
+    display: block; 
 }
 
 .contenedor .contenedor-items .item:hover {
@@ -430,7 +432,6 @@ input[type="submit"]:hover{
     position: sticky !important;
     top: 0;
     transition: .3s;
-    /* Estilos para ocultar */
     margin-right: -100%;
     opacity: 0;
 }
@@ -445,7 +446,6 @@ input[type="submit"]:hover{
 .carrito .carrito-item {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     position: relative;
     border-bottom: 1px solid #666;
     padding: 20px;
