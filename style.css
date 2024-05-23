@@ -384,6 +384,7 @@ input[type="submit"]:hover{
     width: 100%;
     height: 50%; 
     display: block; 
+    display: grid;
 }
 
 .contenedor .contenedor-items .item:hover {
