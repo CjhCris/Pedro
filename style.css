@@ -3,7 +3,6 @@
     src: url(fuentes/copperplate.otf);
 }
 
-
 body{
     background: #161616
     margin 0;
@@ -33,9 +32,6 @@ body{
     }
 }
 
-
-
-
 @keyframes rotate{
     from{
         transform: rotate(0deg);
@@ -62,11 +58,10 @@ body{
     width: 50px;
 }
 
-/* Buscador no funcional*/
-
 .buscador{
     padding-left: 30px;
 }
+
 input{
     outline: none;
     box-sizing: border-box;
@@ -80,17 +75,14 @@ input{
     transition: all .7s ease;
 }
 
-
 ::placeholder{
     color: gray;
 }
-
 
 .buscador input{
     width: 350px;
 
 }
-
 
 .nav-link{
     font-family: 'NavbarFont';
@@ -180,6 +172,7 @@ input{
     font-family: 'NavbarFont';
     src: url(fuentes/copperplate.otf);
 }
+
 .btn-primary {
     font-family: 'NavbarFont';
     src: url(fuentes/copperplate.otf);
@@ -197,7 +190,6 @@ input{
     color: rgba(255,209,3,255)
 }
 
-
 .btn-cart:hover {
     background-color: white;
     border-color: white;
@@ -209,25 +201,20 @@ input{
     margin-top: 7px;
 }
 
-
-/*nuevo*/
 button{
     border: none;
     background: rgba(0, 0, 0, 0);
 }
 
-
 #btn-user{
     background: rgba(0, 0, 0, 0);
     border: none
+
 }
 #btn-carrito{
     background: rgba(0, 0, 0, 0);
     border: none
 }
-
-
-/*Usuario*/
 
 .center{
     position: absolute;
@@ -250,6 +237,7 @@ button{
     padding: 0 40px;
     box-sizing: border-box;
 }
+
 form .txt_field{
     position: relative;
     margin: 30px 0;
@@ -266,6 +254,7 @@ form .txt_field{
     outline: none;
     border: 1px solid #ffa507;
 }
+
 .txt_field label{
     position: absolute;
     top: 60%;
@@ -276,6 +265,7 @@ form .txt_field{
     pointer-events: none;
     transition: .5s;
 }
+
 .txt_field span::before{
     content: '';
     position: absolute;
@@ -291,7 +281,6 @@ form .txt_field{
 .txt_field input:focus ~label{
     top: -5px;
     color: #ffa507;
-
 }
 
 .txt_field input:focus ~span::before,
@@ -303,12 +292,10 @@ form .txt_field{
     margin: -5px 0 20px 5px;
     color: #a6a6a6;
     cursor: pointer;
-
 }
 
 .pass:hover{
     text-decoration: underline;
-
 }
 
 input[type="submit"]{
@@ -335,6 +322,7 @@ input[type="submit"]:hover{
     font-size: 16px;
     color: #666666;
 }
+
 .signup_link a{
     color: #ffa507;
     text-decoration: none;
@@ -348,24 +336,20 @@ input[type="submit"]:hover{
     text-align: center;
 }
 
-
-/*Nuevo Camilo*/
 .contenedor {
     max-width: 1500px;
     padding: 10px;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    /* oculto lo que queda fuera del .contenedor */
     contain: paint;
 }
 
-/* SECCION CONTENEDOR DE ITEMS */
 .contenedor .contenedor-items {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
-    grid-template-rows: repeat(2, auto);  /* 2 filas */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
     grid-gap: 30px;
     transition: .3s;
     width: 100%;
@@ -388,18 +372,16 @@ input[type="submit"]:hover{
 }
 
 .contenedor .contenedor-items .item:hover {
-    /* Estilos cuando el mouse está sobre la tarjeta */
-    background-color: #ffa500; /* Cambia el color de fondo */
-    border-color: #ffa500; /* Cambia el color del borde si lo tienes */
-    color: #fff; /* Cambia el color del texto si es necesario */
-    box-shadow: 0 0 10px #ffa500; /* Agrega una sombra alrededor de la tarjeta */
-    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la tarjeta */
+    background-color: #ffa500;
+    border-color: #ffa500;
+    color: #fff;
+    box-shadow: 0 0 10px #ffa500;
+    transform: scale(1.05);
 }
 
 .contenedor .contenedor-items .item .boton-item:hover {
-    /* Estilos para el botón dentro de la tarjeta cuando el mouse está sobre él */
-    background-color: #ffa500; /* Cambia el color de fondo */
-    border: 0.5px solid black; /* Cambia el estilo del borde */
+    background-color: #ffa500;
+    border: 0.5px solid black;
 }
 
 .contenedor .contenedor-items .item .titulo-item {
@@ -427,7 +409,6 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
-/* seccion carrito */
 .carrito {
     border: 1px solid #666;
     width: 35%;
