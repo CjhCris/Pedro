@@ -351,7 +351,7 @@ input[type="submit"]:hover{
 
 /*Nuevo Camilo*/
 .contenedor {
-    max-width: 1200px;
+    max-width: 1500px;
     padding: 10px;
     margin: auto;
     display: flex;
@@ -364,7 +364,8 @@ input[type="submit"]:hover{
 .contenedor .contenedor-items {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    grid-template-rows: repeat(2, auto);  /* 2 filas */
     grid-gap: 30px;
     transition: .3s;
     width: 100%;
