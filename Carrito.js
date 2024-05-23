@@ -222,3 +222,15 @@ function cargarCarrito() {
         document.getElementsByClassName('carrito-items')[0].innerHTML = carritoItemsHTML;
     }
 }
+
+
+function hacerVisibleCarrito() {
+    carritoVisible = true;
+    var carrito = document.getElementsByClassName('carrito')[0];
+    carrito.style.marginRight = '0';
+    carrito.style.opacity = '1';
+
+    var items = document.getElementsByClassName('contenedor-items')[0];
+    items.style.width = '60%';
+}
+
