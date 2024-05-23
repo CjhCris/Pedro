@@ -52,7 +52,7 @@ function pagarClicked() {
     while (carritoItems.hasChildNodes()) {
         carritoItems.removeChild(carritoItems.firstChild)
     }
-    actualizarTotalCarrito(); // Asegúrate de llamar a actualizarTotalCarrito() aquí también.
+    actualizarTotalCarrito();
     ocultarCarrito();
 }
 
@@ -232,5 +232,6 @@ function hacerVisibleCarrito() {
 
     var items = document.getElementsByClassName('contenedor-items')[0];
     items.style.width = '60%';
+    actualizarTotalCarrito()
 }
 
