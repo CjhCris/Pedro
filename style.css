@@ -347,6 +347,8 @@ input[type="submit"]:hover{
 .modal-body h2{
     text-align: center;
 }
+
+
 /*Nuevo Camilo*/
 .contenedor {
     max-width: 1200px;
@@ -370,28 +372,32 @@ input[type="submit"]:hover{
 
 .contenedor .contenedor-items .item {
     max-width: 100%;
-    margin: auto;
+    margin: center;
     border: 1px solid #666;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
     transition: .3s;
 }
 
 .contenedor .contenedor-items .item .img-item {
     width: 100%;
-    height: auto; /* Asegura que la imagen mantenga su proporción */
-    display: block; /* Asegura que la imagen se muestre como un bloque */
+    height: 50%; 
+    display: block; 
 }
 
 .contenedor .contenedor-items .item:hover {
-    box-shadow: 0 0 10px #666;
-    transform: scale(1.05);
+    /* Estilos cuando el mouse está sobre la tarjeta */
+    background-color: #ffa500; /* Cambia el color de fondo */
+    border-color: #ffa500; /* Cambia el color del borde si lo tienes */
+    color: #fff; /* Cambia el color del texto si es necesario */
+    box-shadow: 0 0 10px #ffa500; /* Agrega una sombra alrededor de la tarjeta */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño de la tarjeta */
 }
 
 .contenedor .contenedor-items .item .boton-item:hover {
-    background-color: #ffa507;
-    transition: .5s;
-    border: 0.5px solid black;
+    /* Estilos para el botón dentro de la tarjeta cuando el mouse está sobre él */
+    background-color: #ffa500; /* Cambia el color de fondo */
+    border: 0.5px solid black; /* Cambia el estilo del borde */
 }
 
 .contenedor .contenedor-items .item .titulo-item {
@@ -430,7 +436,6 @@ input[type="submit"]:hover{
     position: sticky !important;
     top: 0;
     transition: .3s;
-    /* Estilos para ocultar */
     margin-right: -100%;
     opacity: 0;
 }
@@ -445,7 +450,6 @@ input[type="submit"]:hover{
 .carrito .carrito-item {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     position: relative;
     border-bottom: 1px solid #666;
     padding: 20px;
