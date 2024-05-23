@@ -605,9 +605,31 @@ input[type="submit"]:hover{
     }
 }
 
-.registro{
+label{
+    font-weight:600;
     text-align: left;
     padding-left: 10px;
     color: #ffa500;
     
+}
+
+
+.container{
+    padding-top: 25px;
+    
+}
+
+.mb-3{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form-control {
+    border-radius: 30px; 
+    border-width: 2px;
+}
+
+
+.btn {
+    border-radius: 20px; 
 }

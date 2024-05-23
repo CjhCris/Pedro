@@ -15,135 +15,110 @@
             <div class="spinner">
                 <img src="img/Pedro.png" alt="Pedropizza" class="pedro-">
             </div>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a href="index.html">
-                  <img class="logo" src="img/Pedro’s Logo(1).png" alt="">
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Pizzas.html">Pizzas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Bebidas.html">Bebidas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Postres.html">Postres</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Extras.html">Extras</a>
-              </li>
-              <li class="buscador">
-                <input type="text" placeholder="Buscar">
-                </div>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                   
-                          <!-- Button trigger modal -->
-                          <button id="btn-user" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            <img class ="iconos" src="img/usuario queso.png" alt="">
-                          </button>
-
-                          <!-- Modal -->
-                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                  <h2>Inicio de sesión</h2>
-                                  <form id="registroForm">
-                                      <div class="txt_field">
-                                          <input type="text" id="username" name="username">
-                                          <label>Usuario</label>
-                                      </div>
-                                      <div class="txt_field">
-                                          <input type="password" id="password" name="password">
-                                          <label>Contraseña</label>
-                                      </div>
-                                      <div class="pass">Ha olvidado su contraseña?</div>
-                                      <button><input class="botonLog" type="submit" value="Login"></button>
-                                      <div class="signup_link">
-                                          No tiene una cuenta? <a href="Registro.html">Regístrese</a>
-                                          </button>
-
-                                          
-                                      </div>
-                                  </form>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                  </li>
-                  <li class="nav-item">
-                    <button id="btn-carrito" type="button" class="btn btn-primary" data-bs-toggle="modal" onclick="hacerVisibleCarrito()">
-                      <img class="iconos" src="img/carrito queso.png" alt="">
-                  </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html">
+                            <img class="logo" src="img/Pedro’s Logo(1).png" alt="">
+                        </a>
                     </li>
-          </form>
-          </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Pizzas.html">Pizzas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Bebidas.html">Bebidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Postres.html">Postres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Extras.html">Extras</a>
+                    </li>
+                    <li class="buscador">
+                        <input type="text" placeholder="Buscar">
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <button id="btn-user" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img class ="iconos" src="img/usuario queso.png" alt="">
+                            </button>
+
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h2>Inicio de sesión</h2>
+                                            <form id="loginForm">
+                                                <div class="txt_field">
+                                                    <input type="text" id="username" name="username">
+                                                    <label>Usuario</label>
+                                                </div>
+                                                <div class="txt_field">
+                                                    <input type="password" id="password" name="password">
+                                                    <label>Contraseña</label>
+                                                </div>
+                                                <div class="pass">¿Ha olvidado su contraseña?</div>
+                                                <button type="submit" class="botonLog">Login</button>
+                                                <div class="signup_link">
+                                                    ¿No tiene una cuenta? <a href="Registro.html">Regístrese</a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <button id="btn-carrito" type="button" class="btn btn-primary" data-bs-toggle="modal" onclick="hacerVisibleCarrito()">
+                                <img class="iconos" src="img/carrito queso.png" alt="">
+                            </button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      
-      
-      
-      <div class="modal-form">
-        <br>
-        <h2>Ingrese sus datos</h2>
-        <form id="formulario">
-            <div class="txt_field">
-                <h6 class="registro">Nombre:</h6>
-                <input type="text" id="nombre" name="nombre">
-                <label class="lblNombre"></label>
+    <div class="container">
+        <h1>Formulario de Registro</h1>
+        <form id="registroForm">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
             </div>
-            <div class="txt_field">
-              <h6 class="registro">Apellido Paterno:</h6>
-                <input type="text" id="appaterno" name="appaterno">
-                <label class="lblApellidoP"></label>
+            <div class="mb-3">
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="apellido" name="apellido">
             </div>
-            <div class="txt_field">
-              <h6 class="registro">Apellido Materno:</h6>
-                <input type="text" id="apmaterno" name="apmaterno">
-                <label class="lblApellidoM"></label>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="correo" name="correo">
             </div>
-            <div class="txt_field">
-              <h6 class="registro">Rut:</h6>
-                <input type="text" id="rut" name="rut">
-                <label class="lblrut"></label>
+            <div class="mb-3">
+                <label for="rut" class="form-label">RUT</label>
+                <input type="text" class="form-control" id="rut" name="rut">
             </div>
-            <div class="txt_field">
-              <h6 class="registro">Contraseña:</h6>
-                <input type="password" id="password" name="password">
-                <label class="lblContraseña1"></label>
+            <div class="mb-3">
+                <label for="password1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="password1" name="password1">
             </div>
-            <div class="txt_field">
-              <h6 class="registro">Repita su contraseña:</h6>
-                <input type="password" id="password2" name="password2">
-                <label class="lblContraseña2"></label>
+            <div class="mb-3">
+                <label for="password2" class="form-label">Confirmar Contraseña</label>
+                <input type="password" class="form-control" id="password2" name="password2">
             </div>
-            <div class="txt_field">
-              <h6 class="registro">Edad:</h6>
-                <input type="text" id="edad" name="edad">
-                <label class="lblEdad"></label>
+            <div class="mb-3">
+                <label for="edad" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="edad" name="edad">
             </div>
-            <div class="txt_field">
-              <h6 class="registro">Correo:</h6>
-                <input type="text" id="correo" name="correo">
-                <label class="Correo"></label>
-            </div>
-            
-            <button><input class="botonLog" type="submit" value="Registrarse"></button>
-            
+            <button type="submit" class="btn btn-primary">Registrarse</button>
         </form>
-      </div>
+    </div>
 
-
+    <script src="Validaciones.js"></script>
 </body>
 </html>
