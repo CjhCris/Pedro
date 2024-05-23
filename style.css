@@ -543,7 +543,6 @@ input[type="submit"]:hover{
     border: 1px solid black;
 }
 
-/* SECCION RESPONSIVE */
 @media screen and (max-width: 850px) {
     .contenedor {
         display: block;
