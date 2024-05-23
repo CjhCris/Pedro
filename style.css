@@ -632,3 +632,15 @@ label{
 .btn {
     border-radius: 20px; 
 }
+
+.contenedor .contenedor-items .item {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
